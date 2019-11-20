@@ -12,7 +12,7 @@ public class RegularExpressionExample {
          System.out.println( "does " + number + " is  number : "+ pattern.matcher(number).matches());
 	 }
 	 
-	 
+	 //test check
 	 String gstInno="19BAKPS1896R1ZE";
 	 if (gstInno.matches(GSTIN_FORMAT)) {
 		   System.out.println( "does " + gstInno + " ****: "+gstInno.matches(GSTIN_FORMAT));
